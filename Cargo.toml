@@ -1,0 +1,9 @@
+[package]
+name = "webview"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.29", features = ["derive"] }
+tao = "0.31.1"
+wry = "0.48.1"
