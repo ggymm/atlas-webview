@@ -8,7 +8,7 @@ use wry::WebViewBuilder;
 
 #[derive(Parser, Debug)]
 struct Args {
-    #[arg(default_value = "https://ggymm.zyx")]
+    #[arg(default_value = "https://docs.ggymm.zyx")]
     url: String,
 }
 
